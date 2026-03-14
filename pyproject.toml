@@ -1,0 +1,23 @@
+[project]
+name = "documents-github"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "anywidget>=0.9.21",
+    "ipywidgets>=8.1.8",
+    "matplotlib>=3.10.7",
+    "nbconvert>=7.17.0",
+    "numpy>=2.3.3",
+    "plasmapy>=2025.8.0",
+    "plotly>=6.6.0",
+    "scikit-rf>=1.11.0",
+    "scipy>=1.16.2",
+    "sympy>=1.14.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+]
